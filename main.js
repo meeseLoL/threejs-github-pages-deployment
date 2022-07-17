@@ -1,6 +1,6 @@
 import './style.css'
 
-import * as THREE from 'https://unpkg.com/three@<version>/build/three.module.js';
+import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js';
 
 import { OrbitControls } from 'https://unpkg.com/three@<version>/examples/jsm/controls/OrbitControls.js';
 
