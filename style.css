@@ -1,3 +1,8 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 
 main {
   width: 100vw;
@@ -16,7 +21,7 @@ h1, h2, h3, blockquote, p {
   color: #CBF0EE;
   position: relative; right: 100px;
   padding-right: 150px;
-  font-family elevon, sans-serif;
+  font-family: Montserrat;
   font-weight: 700;
   font-style: normal;
 }
