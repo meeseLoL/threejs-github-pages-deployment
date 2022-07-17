@@ -1,6 +1,3 @@
-import mimetypes
-mimetypes.add_type('application/javascript', '.js')
-mimetypes.add_type('text/css', '.css')
 
 import './style.css'
 
