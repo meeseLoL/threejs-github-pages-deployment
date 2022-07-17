@@ -1,5 +1,3 @@
-
-
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r99/three.min.js';
 
 import { OrbitControls } from 'https://cdn.jsdelivr.net/combine/npm/three-orbitcontrols@2.110.3/example.min.js,npm/three-orbitcontrols@2.110.3,npm/three-orbitcontrols@2.110.3/test.min.js';
