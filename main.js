@@ -37,7 +37,13 @@ pointLight.position.set(20,20,20)
 const ambientLight = new THREE.AmbientLight(0xffffff);
 scene.add(pointLight, ambientLight);
 
+<<<<<<< HEAD
 
+=======
+const lightHelper = new THREE.PointLightHelper(pointLight)
+const gridHelper = new THREE.GridHelper(200, 50);
+scene.add(lightHelper, gridHelper)
+>>>>>>> 4de34c5b5920d12f90e4508d237a5ec1ed9c223a
 
 const controls = new OrbitControls(camera, renderer.domElement);
 
@@ -56,7 +62,11 @@ function addStar() {
 
 }
 
+<<<<<<< HEAD
 Array(400).fill().forEach(addStar)
+=======
+Array(600).fill().forEach(addStar)
+>>>>>>> 4de34c5b5920d12f90e4508d237a5ec1ed9c223a
 
 const spaceTexture = new THREE.TextureLoader().load('space1.jpg');
 scene.background = spaceTexture;
